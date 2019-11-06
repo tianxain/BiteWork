@@ -1,2 +1,5 @@
 ﻿  IsCharArrEqual.c
-  C_zy_day14.vcxproj -> E:\GitHub\MyRepository\bite\C_zy_day14\Debug\C_zy_day14.exe
+  test.c
+e:\github\myrepository\bitework\c_zy_day14\c_zy_day14\test.c(6): warning C4013: “isRotate_tre”未定义；假设外部返回 int
+  正在生成代码...
+  C_zy_day14.vcxproj -> E:\GitHub\MyRepository\BiteWork\C_zy_day14\Debug\C_zy_day14.exe

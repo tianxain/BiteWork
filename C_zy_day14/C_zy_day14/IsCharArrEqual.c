@@ -28,3 +28,26 @@ int isCharArrEqual(char *charArr1, char *charArr2,int n)
 	}
 	return 0;
 }
+
+int isRotate_tre(char *str, char *rt_str)
+{
+	int len = strlen(str);
+	char *double_str = (char *)malloc(len*2+1);
+	strcpy(double_str,str);
+	strcat(double_str,str);
+
+	/*if (strstr(double_str, rt_str) != NULL)
+	{
+		free(double_str);
+		return 1;
+	}
+	else
+	{
+		free(double_str);
+		return 0;
+	}*/
+
+	int ret = (strstr(double_str, rt_str) == NULL?0:1);
+	free(double_str);
+	return ret;
+}

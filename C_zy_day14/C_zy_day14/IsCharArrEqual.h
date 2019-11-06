@@ -5,3 +5,5 @@
 
 //判断一个字符串是否为另外一个字符串旋转之后的字符串
 int isCharArrEqual(char *charArr1, char *charArr2,int n);
+
+int isRotate_tre(char *str, char *rt_str);

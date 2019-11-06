@@ -1,6 +1,11 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include"RotateChar.h"
 
+int main()
+{
+		printf("%d", isRotate_tre("ABCDE","CDEAB"));
+	return 0;
+}
 #if 0
 //翻转字符串中指定个数字符
 int main()
@@ -16,6 +21,7 @@ int main()
 }
 #endif
 
+#if 0
 //判断一个字符串是否为另外一个字符串旋转之后的字符串
 int main()
 {
@@ -36,3 +42,4 @@ int main()
 	}
 	return 0;
 }
+#endif
